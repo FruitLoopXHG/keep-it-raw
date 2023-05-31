@@ -28,7 +28,12 @@ function DepCopy(arrOrObj) {
     }
 }
 
+function name(params) {
+    console.log(123);
+}
+
 
 export default{
-    DepCopy
+    DepCopy,
+    name
 }
